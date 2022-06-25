@@ -1,0 +1,19 @@
+.body-row {
+    color: #226abb;
+    border-bottom: 2px solid gray;
+}
+
+.body-row:hover {
+    box-shadow: -2px -2px 2px lightgray;
+    border-bottom: 2px solid #383737;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300px;
+}
+
+a:hover {
+    color: blue;
+}

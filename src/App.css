@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500px;
+  text-align: center;
+  color: rgb(68, 8, 8);
+  margin: 2rem;
+  text-decoration: underline;
+}
+
+.goto-top {
+ border-radius: 50%;
+ background: black;
+ position: fixed;
+ left: 1%;
+  top: 80%;
+ width: 100px;
+ height: 100px;
+ color: white;
+ font-size: 2rem;
+ font-weight: bolder;
+ padding-top: 20px;
+ padding-left: 20px;
+ box-shadow: 4px 4px 3px gray;
+}
+
+.goto-top:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
